@@ -1,0 +1,385 @@
+
+*{padding: 0;margin: 0;border: 0;outline: none;}
+body{background: #4c4c4c;font-family: "微软雅黑","黑体","宋体";color: #fff;font-size: 14px;}
+img{display: inline-block;}
+a{text-decoration: none;}
+li{list-style: none;float: left;}
+h1{font-family: "微软雅黑";color: #ffde00;font-size: 18px;font-weight: lighter;margin-top: 3%}
+h6{font-family: "微软雅黑";color: #fff;font-size: 12px;padding-top: 6%}
+.f_l{float: left;}
+.f_r{float: right;}
+
+input{-webkit-appearance: none;
+ 	border-radius：0px;
+    -webkit-border-radius:0px;
+	background:#fff;font-family: "微软雅黑";font-size: 16px;color: #4c4c4c;
+}
+
+    
+
+.style-1{width: 98%;margin: 0 auto;}
+.style-2{width: 96%;margin: 0 auto;}
+.style-3{width: 94%;margin: 0 auto;}
+
+/*星星个数 Begin*/
+.star1{background: url(../img/star.png) no-repeat;width: 100%;height: 19px;}
+.star1-5{background: url(../img/star.png) no-repeat;background-position: 0px -20px;width: 100%;height: 19px;}
+.star2{background: url(../img/star.png) no-repeat;background-position: 0px -57px;width: 100%;height: 19px;}
+.star2-5{background: url(../img/star.png) no-repeat;background-position: 0px -76px;width: 100%;height: 19px;}
+.star3{background: url(../img/star.png) no-repeat;background-position: 0px -95px;width: 100%;height: 19px;}
+.star3-5{background: url(../img/star.png) no-repeat;background-position: 0px -114px;width: 100%;height: 19px;}
+.star4{background: url(../img/star.png) no-repeat;background-position: 0px -134px;width: 100%;height: 19px;}
+.star4-5{background: url(../img/star.png) no-repeat;background-position: 0px -153px;width: 100%;height: 19px;}
+.star5{background: url(../img/star.png) no-repeat;background-position: 0px -172px;width: 100%;height: 19px;}
+/*星星个数 end*/
+
+
+
+/*首页头部 BEIGN */
+.header{position: relative;overflow: hidden;width: 100%;height: 48px;background: url(../img/headerbg.png);background-size: cover;}
+	.header-wrap{height: 48px;}
+		.header-wrap-left{width: 40%;height: 48px;line-height: 48px;}
+			.header-wrap-left img{height: 30px;margin-top: 9px;}
+			.header-wrap-left h1{display: block;float: right;margin-right: 10px;height: 48px;line-height: 48px;margin-top: 0px;}
+		.header-wrap-center{width: 45%;height: 48px;}
+			.search{height: 30px;width: 76%;background: #fff;margin-top: 9px;padding-left: 4%;font-family: "微软雅黑";font-size: 12px;color: #6A6A6A;}
+			.search-btn-warp{height: 30px;width: 20%;background-color: #ffde00;margin-top: 9px;}
+			.search-btn{height: 30px;width: 100%;background: url(../img/search-btn-bg.png) center no-repeat;}
+		.header-wrap-right{width: 10%;height: 48px;margin-left: 5%}
+			.header-wrap-right .login-btn{display: block;height: 30px;width: 100%;margin-top: 9px;background: #ffde00;border-radius: 5px;font-family: "微软雅黑";color: #5d0000;font-size: 14px;line-height: 30px;text-align: center;font-weight: bold;}
+.headerfix{position: fixed;top: 0px;left: 0px;z-index: 1;}
+/*首页头部 END */
+
+/*头部2 BEIGN*/
+.header2{position: relative;overflow: hidden;width: 100%;height: 48px;background: url(../img/headerbg.png);background-size: cover;text-align: center;}
+	.header2-goback{height: 36px;position: absolute;left: 3%;top: 6px;}
+	.logo2{height: 36px;margin-top: 6px;}
+/*头部2 END*/
+
+/*首页 BEIGIN ###########################################################*/
+	/*轮播 BEGIN */
+	.layout01{position: relative;margin-top: 1%;height: auto;overflow: auto;}
+	    .swiper-container {
+	        width: 100%;
+	    }
+	    .swiper-slide {
+	        text-align: center;
+	        font-size: 18px;
+	        background: transparent;     
+	    }
+		.swiper-slide img{border-radius: 2%;width: 100%}
+	/*轮播 END */
+
+	/*导航 BEGIN */
+	.layout02{position: relative;height: auto;overflow: auto;}
+		.layout02 li{width: 16%;margin: 2%;text-align: center;}
+		.layout02 li img{width: 80%;}
+	/*导航 END  */
+
+
+	/*推荐新游 热门游戏 BEGIN */
+	.layout03{position: relative;}
+		.layout03-nav{width: 100%;height: 30px;}
+			.layout03-nav li{width: 49.5%;height: 30px;text-align: center;line-height: 30px;background: #353535;font-family: "微软雅黑";color: #fff;font-size: 13px;}
+			.remenyouxi{margin-left: 1%}
+		.layout03-cont{width: 100%;height: auto;overflow: auto;}
+			.layout03-cont li{width: 20%;margin: 2.5%;text-align: center;}
+			.layout03-cont li img{width: 100%;border-radius: 10%;display: block;border-radius: 15px;}
+			.layout03-cont li label{display: block;font-family: "微软雅黑";color: #fff;font-size: 12px;font-weight: bold;margin-top: 6%;}
+			.layout03-cont li input{display: block;width: 100%;height: 30px;border-radius: 30px;background: #ffde00;font-family: "微软雅黑";color: #550000;font-size: 14px;font-weight: bold;margin-top: 6%;}
+	/*推荐新游 热门游戏 END  */
+
+
+	/*热门文章 BEIGN */
+	.layout04{position: relative;}
+		.layout04-line{width: 100%;height: auto;overflow: auto;margin: 3% 0%;}
+			.layout04-line-left{width: 49%;}
+				.layout04-line-left img{width: 100%;}
+			.layout04-line-right{width: 49%;margin-left: 2%;}
+				.layout04-line-right h1{font-size: 14px;font-weight: bold;margin-top: 0px;}
+				.layout04-line-right p{font-family: "微软雅黑";color: #fff;font-size: 12px;}
+	/*热门文章 END */
+
+
+	/*热门礼包 BEGIN*/
+	.layout05{position: relative;height: auto;overflow: auto;}
+		.layout05 li{width: 100%;margin-top: 3%}
+		.layout05-left{width: 20%}
+			.layout05-left img{width: 100%;border-radius: 15px;}
+		.layout05-center{width: 50%;margin-left: 5%;position: relative;}
+			.layout05-center h1{font-size: 16px;margin-top: 5%}
+		.layout05-right{width: 25%;position: relative;}
+			.layout05-right a{display:block;width: 100%;height: 40px;line-height: 40px;text-align: center;background:#ffde00;font-family: "黑体";font-size: 18px;color: #550000;font-weight: bold;margin-top: 15%}
+			#layout05-right-download{border-radius: 30px;height: 30px;line-height: 30px;margin-top: 21%;}
+	/*热门礼包 END */
+
+
+	/*热门分类 BEGIN */
+	.layout06{position: relative;height: auto;overflow: auto;}
+		.layout06 li{width: 33.33%;text-align: center;height: 50px;line-height: 50px;}
+		.layout06 li img{height: 30px;margin-top: 10px;}
+		.bc1{background: #3e006a}
+		.bc2{background: #8a0068}
+		.bc3{background: #860000}
+		.bc4{background: #002e83}
+		.bc5{background: #004f11}
+		.bc6{background: #be6b00}
+	/*热门分类 END */
+
+	/*加载 BEIGIN*/
+	.loading{width: 100%;height: 20px;text-align: center;line-height: 20px;margin: 2% 0%;margin-bottom: 6%;}
+		.loading span{color: #ffde00;font-size: 15px;font-weight: bold;display: inline-block;margin-bottom: 5px;}
+		.dotted{background: url(../img/dotted.png) repeat-x;width: 100%;height: 2px;}	
+	/*加载 END*/
+/*首页 END ###########################################################*/
+
+
+/*登录 注册 找回密码 BEIGN ###########################################################*/
+	.login{position: relative;margin: 0 auto;margin-top: 55px;margin-bottom: 55px;width: 75%;}
+		.login-item{width: 100%;height: 45px;font-family: "微软雅黑";font-size: 25px;color: #ffde00;line-height: 45px;}
+		.login-item input{width: 90%;height: 45px;background:#fff;padding: 0% 5%;font-family: "微软雅黑";font-size: 16px;color: #4c4c4c;}
+		.login-item a{font-family: "微软雅黑";font-size: 14px;color: #ff7c00;display: block;}
+		.login-item span{font-family: "微软雅黑";font-size: 14px;color: red;}
+		#login-btn{width: 100%;height: 65px;background: url(../img/login-btn.png) center no-repeat;padding: 0px;background-size: 100px;}
+		#register-btn{width: 100%;height: 65px;background: url(../img/register-btn.png) center no-repeat;padding: 0px;background-size: 100px;}
+		#fogtpsw-btn{width: 100%;height: 65px;background: url(../img/fogtpsw-btn.png) center no-repeat;padding: 0px;background-size: 180px;}
+/*登录 注册 找回密码 END ###########################################################*/
+
+
+/*新闻内容页 BEIGN ###########################################################*/
+	/*内容-标题 BEGIN*/
+	.layout07{position: relative;width: 100%;text-align: center;height: auto;overflow: auto;border-bottom: 1px #2d2d2d solid;padding-bottom:4%;}
+		.layout07 h1{font-family: "黑体";color: #ffa800;padding: 2% 0%;font-size: 24px;}
+		.layout07 label{font-family: "黑体";color: #fff;font-size: 14px;}
+	/*内容-标题 END*/
+
+
+	/*内容-正文 BEGIN*/
+	.layout08{position: relative;height: auto;overflow: auto;text-align: left;text-indent: 2em;line-height: 180%;font-family: "微软雅黑";font-size: 14px;color: #fff;padding: 3% 0%;}
+		.layout08 img{display: block;width: 90%;margin: 5% auto;}
+	/*内容-正文 END*/
+
+	/*相关文章 BEGIN*/
+	.layout09{position: relative;height: auto;overflow: auto;padding-top: 6%;;}
+		.layout09 p{font-family: "黑体";font-size: 16px;color: #fff;}
+		.layout09 mark{font-family: "黑体";font-size: 16px;color: #ff4e00;background: #4c4c4c;}
+		.layout09 li{width: 100%;height: 30px;line-height: 30px;}
+		.layout09 span{font-family: "黑体";font-size: 14px;color: #ffde00;display: inline-block;}
+		.layout09 a{font-family: "黑体";font-size: 14px;color: #fff;display: inline-block;}
+		.layout09 time{font-family: "黑体";font-size: 14px;color: #fff;display: inline-block;float: right;}
+		.layout09 input{background: #FFDE00;font-size: 14px;color: #550000;padding: 2px 2px;float: right;margin-left: 10px}
+	/*相关文章 END*/
+/*新闻内容页 END ###########################################################*/
+
+
+/*礼包中心 BEIGN ###########################################################*/
+	.pack-li{border-bottom: 1px #2d2d2d solid;border-top: 1px #656565 solid;padding: 2% 0%}
+	.layout05 li:first-child{border-top:0px}
+	.layout05 li:last-child{border-bottom:0px}
+	.pack-li a{height: 30px;border-radius: 30px;font-size: 20px;margin-top: 22%;line-height: 30px;}
+/*礼包中心 END ###########################################################*/
+
+
+/*游戏内容 BEIGN ###########################################################*/
+	.layout10{position: relative;height: auto;overflow: auto;}
+		.layout10 li{width: 100%;margin-top: 3%;padding-bottom: 5%;}
+			.layout10-left{width: 26%}
+				.layout10-left img{width: 100%;border-radius: 20px; }
+			.layout10-center{width: 50%;margin-left: 3%;position: relative;}
+				.layout10-center h1{font-size: 16px;margin-top: 0%;font-weight: lighter;}
+				.layout10-center h6{font-weight: lighter;padding-top: 3%}
+			.layout10-right{width: 20%;position: relative;}
+				.layout10-right a{display:block;width: 100%;height: 40px;line-height: 40px;text-align: center;background:#ffde00;font-family: "黑体";font-size: 18px;color: #550000;font-weight: bold;margin-top: 15%}
+				#layout10-right-download{border-radius: 30px;height: 30px;line-height: 30px;margin-top: 21%;}
+			.layout10 li:first-child{border-top:0px}
+			.pack-li a{height: 30px;border-radius: 30px;font-size: 20px;margin-top: 22%;line-height: 30px;}
+			.ackcont-li-btom p{font-size: 14px;}
+	.layout11{position: relative;padding-bottom: 4%;border-top: 1px #656565 solid;height: auto;overflow: auto;}
+		.layout11 p{text-indent: 2em;line-height: 180%}
+/*游戏内容 END ###########################################################*/
+
+
+/*游戏中心 BEGIN*/
+	.layout12{position: relative;width: 100%;height: 40px;margin-top: 2%;}
+		.layout12-1{width: 28%;}
+		.layout12-2{width: 28%;margin-left: 1%;}
+		.layout12-3{width: 28%;margin-left: 1%;}
+		.layout12-4{width: 10%;margin-left: 2%;line-height: 40px;text-align: center;height: 40px;}
+			.layout12-4 li{width: 45%;height: 19px;background: #353535;}
+			.layout12-4 img{height: 25px;}
+			.layout12-4 label{font-size: 12px;display: block;margin-top: -25px;color:#FFDE00;}
+		.layout12-item{background: #353535;line-height: 40px;text-align: center;height: 40px;}
+	.layout13{position: relative;width: 100%;height: 60px;margin-top: 2%;}
+		.layout13-left{width: 20%;height: 60px;background: #ffde00;font-size: 20px;font-weight: bold;text-align: center;line-height: 60px;color: #5d0000}
+		.layout13-right{width: 80%;height: 60px;}
+			.layout13-right li{height: 30px;width: 33.3%;text-align: center;line-height: 30px;}
+			.layout13-right li img{height: 24px;margin-top: 3px;}
+	.layout14{position: relative;height: auto;overflow: auto;}
+		.layout14 li{width: 100%;border-top: 1px #656565 solid;border-bottom: 1px #2d2d2d solid;padding: 2% 0%;}
+		.layout14 li:first-child{border-top:0px}
+		.layout14 li:last-child{border-bottom:0px}
+		.layout14-left{width: 20%}
+			.layout14-left img{width: 100%;border-radius: 15px;}
+		.layout14-center{width: 50%;margin-left: 5%;position: relative;}
+			.layout14-center h1{font-size: 16px;margin-top: 5%}
+		.layout14-right{width: 25%;position: relative;}
+			.layout14-right a{display:block;width: 100%;height: 40px;line-height: 40px;text-align: center;background:#ffde00;font-family: "黑体";font-size: 18px;color: #550000;font-weight: bold;margin-top: 15%}
+			#layout14-right-download{border-radius: 30px;height: 30px;line-height: 30px;margin-top: 21%;}
+/*游戏中心 END*/
+
+
+
+/*游戏官网 图片展示 BEGIN */
+	.layout15{position: relative;height: auto;overflow: auto;}
+		.layout15 img{margin-left: 10px;}
+	/*遮罩层 BEGIN*/
+	.fade{position: fixed;width: 100%;height: 100%;z-index:2;background: rgba(0, 0, 0, 0.7);top: 0;left: 0;}
+	.fadebox{position: absolute;width: 291px;height: 483px;left: 50%;top: 50%;margin-left: -145px;margin-top: -242px;background: rgba(23, 23, 23, 0.98);overflow: hidden;}
+	.fadebox img{width: 291px;height: 483px;}
+
+
+	.ck-slide { width: 291px; height: 483px; }
+	.ck-slide ul.ck-slide-wrapper { height: 483px;}
+
+	.ck-slide ul { margin: 0; padding: 0; list-style-type: none;}
+	.ck-slide { position: relative; }
+	.ck-slide ul.ck-slide-wrapper { position: absolute; top: 0; left: 0; z-index: 1; margin: 0; padding: 0;}
+	.ck-slide ul.ck-slide-wrapper li { position: absolute;}
+	.ck-slide .ck-prev, .ck-slide .ck-next { position: absolute; top: 50%; z-index: 2; width: 35px; height: 70px; margin-top: -35px; border-radius: 3px; opacity: .15; background: red; text-indent: -9999px; background-repeat: no-repeat; transition: opacity .2s linear 0s;}
+	.ck-slide .ck-prev { left: -5px; background: url(../img/arrow-left.png) #000 50% no-repeat;}
+	.ck-slide .ck-next { right: -5px; background: url(../img/arrow-right.png) #000 50% no-repeat;}
+	.ck-slidebox { position: absolute; left: 50%; bottom: 12px; z-index: 30;}
+	.ck-slidebox ul { height: 20px; padding: 0 4px; border-radius: 8px; background: rgba(0,0,0,0.5);}
+	.ck-slidebox ul li { float: left; height: 12px; margin: 4px 4px;}
+	.ck-slidebox ul li em { display: block; width: 12px; height: 12px; border-radius: 100%; background-color: #fff; text-indent: -9999px; cursor: pointer;}
+	.ck-slidebox ul li.current em { background-color: #fe6500;}
+	.ck-slidebox ul li em:hover { background-color: #fe6500;}
+
+
+	/*遮罩层 END*/
+/*游戏官网 图片展示 END */
+
+
+
+/*搜索中心 BEGIN*/
+	.search-page{position: relative;margin-top: 2%;height: auto;overflow: auto;}
+		.search-page-nav{width: 100%;height: 40px;}
+			.search-page-nav li{width: 24.25%;height: 40px;line-height: 40px;background: #353535;margin-left: 1%;text-align: center;}
+			.search-page-nav li:first-child{margin-left: 0px;}
+		.search-page-cont{position: relative;height: auto;overflow: auto;}
+	.search-fail{font-size: 14px;color: #ffde00;margin-top: 3%;text-align: center;}
+/*搜索中心 END*/
+
+
+/*个人中心 BEGIN*/
+	.user{position: relative;margin-top: 2%;width: 100%;font-family: "微软雅黑","黑体","宋体";color: #fff;font-size: 14px;}
+	/*欢迎用户 BEGIN*/
+		.user-wel{height: auto;overflow: auto;margin-top: 5%;margin-bottom: 2%;}
+			.user-wel label{font-size: 18px;margin-left: 7px;}
+			.user-wel a{font-family: "微软雅黑","黑体","宋体";color: #fff;font-size: 18px;}
+	/*欢迎用户 END*/
+	
+	.user-cont{margin-top: 5%;margin-bottom: 2%;}
+	/*个人中心局部导航 BEGIN*/
+		.user-nav{height: auto;overflow: auto;}
+			.user-nav li{width: 29.33%;height: 35px;background: #2d2d2d;border-radius: 35px;margin-left: 3%;margin-top: 2%;text-align: center;line-height: 35px;font-size: 16px;color: #ffde00;}
+	/*个人中心局部导航 END*/
+
+	/*最近关注 BEGIN*/
+		#user-cont-1{height: auto;overflow: auto;}
+	/*最近关注 END*/
+
+	/*完善资料 BEGIN*/
+		#user-cont-2{height: auto;overflow: auto;}
+			.user-cont-2-line{width: 85%;height: 40px;margin: 0 auto;margin-top: 15px;}
+			.user-cont-2-line-left{width: 20%;height: 40px;text-align: left;line-height: 40px;font-size: 16px;}
+			.user-cont-2-line-right{width: 80%;height: 40px;text-align: center;line-height: 40px;}
+				.user-cont-2-line-right input{width: 95%;height: 39px;padding-left: 5%;}
+				.user-cont-2-line-right select{width: 100%;height: 40px;padding-left: 5%;background:#fff;font-family: "微软雅黑";font-size: 16px;color: #4c4c4c;}
+			.user-cont-2-submit{width: 85%;height: 40px;margin: 0 auto;margin-top: 15px;text-align: center;}
+				.user-cont-2-submit input{width: 50%;height: 40px;background: #ffde00;font-size: 16px;color: #5d0000}
+	/*完善资料 END*/
+
+	/*修改密码 BEGIN*/
+		#user-cont-3{height: auto;overflow: auto;}
+			.user-cont-3-line{width: 261px;height: 40px;margin: 0 auto;margin-top: 15px;}
+			.user-cont-3-line-left{width: 91px;height: 40px;text-align: right;line-height: 40px;font-size: 16px;}
+			.user-cont-3-line-right{width: 167px;margin-left: 3px;height: 40px;text-align: center;line-height: 40px;}
+				.user-cont-3-line-right input{width: 157px;height: 39px;padding-left: 10px;}
+			.user-cont-3-submit{width: 85%;height: 40px;margin: 0 auto;margin-top: 15px;text-align: center;}
+				.user-cont-3-submit input{width: 50%;height: 40px;background: #ffde00;font-size: 16px;color: #5d0000}
+	/*修改密码 END*/
+
+	/*密保邮箱 BEGIN*/
+		#user-cont-4{height: auto;overflow: auto;}
+			.user-cont-4-line{width: 277px;height: 40px;margin: 0 auto;margin-top: 15px;}
+			.user-cont-4-line-left{width: 124px;height: 40px;text-align: right;line-height: 40px;font-size: 16px;}
+			.user-cont-4-line-right{width: 141px;margin-left: 3px;height: 40px;text-align: center;line-height: 40px;}
+				.user-cont-4-line-right input{width: 131px;height: 39px;padding-left: 10px;}
+			.user-cont-4-submit{width: 85%;height: 40px;margin: 0 auto;margin-top: 15px;text-align: center;}
+				.user-cont-4-submit input{width: 50%;height: 40px;background: #ffde00;font-size: 16px;color: #5d0000}
+	/*密保邮箱 END*/
+
+	/*重置记录 BEGIN*/
+		#user-cont-5{}
+			.czjl-cont{width: 100%;height: auto;overflow: auto;}
+			.czjl-cont-t{padding-bottom: 10%;}
+				.user-cont-5-line{width: 277px;height: 40px;margin: 0 auto;margin-top: 15px;}
+				.user-cont-5-line-left{width: 77px;height: 40px;text-align: right;line-height: 40px;font-size: 16px;}
+				.user-cont-5-line-right{width: 197px;margin-left: 3px;height: 40px;text-align: center;line-height: 40px;}
+					.user-cont-5-line-right input{width: 167px;height: 39px;padding-left: 10px;}
+				.user-cont-5-submit{width: 85%;height: 40px;margin: 0 auto;margin-top: 15px;text-align: center;}
+					.user-cont-5-submit input{width: 50%;height: 40px;background: #ffde00;font-size: 16px;color: #5d0000}
+				
+
+			.czjl-cont-b{width: 100%;}
+				.czjl-item{width: 96%;position: relative;margin: 0 auto;margin-top: 4%;}
+				.czjl-item-top{width: 95%;height: 40px;background: #ffde00;font-size: 14px;color: #5D0000;line-height: 40px;padding-left: 5%;}
+				.czjl-item-top span{
+						position: absolute;
+						right: 10px;
+						top:15px;
+						display: block;
+						float: right;
+						width: 0px;
+						height: 0px;
+						border-left: 6px solid transparent;
+						border-right: 6px solid transparent;
+						border-bottom: 12px solid #5d0000;
+				}
+				.span-spin{
+						transform: rotate(180deg);
+						-ms-transform: rotate(180deg);		
+						-webkit-transform: rotate(180deg);	
+						-o-transform: rotate(180deg);		
+						-moz-transform: rotate(180deg);
+				}
+				.czjl-item-btm{width: 100%;font-size: 12px;height: auto;overflow: auto;color: #ffde00;}
+				.user-cont-5 table{border: 1px #FFDE00 solid;width: 100%;padding-left: 5%;background: #2D2D2D;}
+				.user-cont-5 tr{width: 1005;height: 30px;line-height: 30px;}
+				.user-cont-5 tr td:first-child{font-weight: bold;}
+
+			
+	/*重置记录 END*/
+
+	/*防沉迷认证 BEGIN*/
+		#user-cont-6{}
+			.user-cont-6-w{width: 90%;height: auto;overflow: auto;margin: 0 auto;}
+			.user-cont-6-w p{color: #D8D3D3;font-size: 14px;line-height: 180%;}
+			.user-cont-6-line{width: 277px;height: 40px;margin: 0 auto;margin-top: 15px;}
+			.user-cont-6-line-left{width: 77px;height: 40px;text-align: right;line-height: 40px;font-size: 16px;}
+			.user-cont-6-line-right{width: 197px;margin-left: 3px;height: 40px;text-align: center;line-height: 40px;}
+				.user-cont-6-line-right input{width: 167px;height: 39px;padding-left: 10px;}
+			.user-cont-6-submit{width: 85%;height: 40px;margin: 0 auto;margin-top: 15px;text-align: center;}
+				.user-cont-6-submit input{width: 50%;height: 40px;background: #ffde00;font-size: 16px;color: #5d0000}
+	/*防沉迷认证 END*/
+/*个人中心 END*/
+
+
+/*底部 BEGIN */
+.footer{position: relative;text-align: center;padding-bottom: 5%;margin-top: 3%;}
+	.footer p{font-family: "微软雅黑";color: #cbcaca;font-size: 14px;line-height: 150%;}
+	.footer a{font-family: "微软雅黑";color: #cbcaca;font-size: 14px;display: inline-block;margin-top: 2%;}
+/*底部 END 
+
+
